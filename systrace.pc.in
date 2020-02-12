@@ -1,0 +1,10 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+exec_prefix=${prefix}
+libdir=${prefix}/lib@LIB_SUFFIX@
+includedir=${prefix}/@CMAKE_INSTALL_INCLUDEDIR@
+
+Name: Systrace
+Description: Systrace Library
+Version: @PROJECT_VERSION@
+Libs: -lsystrace 
+Cflags: 
