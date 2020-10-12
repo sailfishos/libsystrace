@@ -30,7 +30,7 @@ pushd build
     -DCMAKE_INSTALL_PREFIX=%{_prefix} \
     -DVERSION=%{version}
 make %{?_smp_mflags}
-popd build
+popd
 
 %install
 rm -rf %{buildroot}
