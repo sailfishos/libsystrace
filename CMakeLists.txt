@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0.0)
+cmake_minimum_required(VERSION 3.10)
 
 # Remove git hash from version number if present
 string(REGEX REPLACE "([0-9.]+).*" "\\1" VERSION "${VERSION}")
